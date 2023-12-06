@@ -1,0 +1,58 @@
+/**index.wxss**/
+.search-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+}
+.search-left{
+  background-color: #eee;
+  flex: 2;
+  border-radius: 40rpx;
+  padding-right: 40rpx;
+  box-sizing: border-box;
+}
+.search-left image{
+  width: 48rpx;
+  height: 48rpx;
+  padding: 10rpx 20rpx;
+  vertical-align: middle;
+  
+}
+.search-left input{
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 88rpx);
+}
+.homeTapSinger{
+	height: 3rem;
+	width: 14%;
+	padding: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.homeTapSinger text{
+	text-align: center;
+	flex: auto; 
+	padding-top: 0.85rem;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:28.5rpx;
+}
+.homeTapContainer{
+	padding-top: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	background-color: rgb(255, 255, 255);
+}
+.homeTapContainer view{
+	display: flex;
+	justify-content: space-around;
+}
+.image{
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+

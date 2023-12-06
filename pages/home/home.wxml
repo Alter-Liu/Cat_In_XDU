@@ -1,0 +1,95 @@
+<!--index.wxml-->
+<view class="search-container"
+style="padding-bottom: 1rem; background-color: rgb(243, 208, 157);">
+  <view class="search-left">
+    <image src="云服务器地址/images/home0.png" />
+    <input type="text" placeholder="搜索（就下面这几个，别搜了"/>
+  </view>
+
+</view>
+
+<view style="padding-top: 2rem;"
+style="background-color: #FFFFFF;">
+	<swiper style="height:450rpx;"
+   autoplay="ture"
+   indicator-dots="ture"
+   interval="3400"
+   >
+	  <swiper-item>
+		  <image src="云服务器地址/images/home_picture.jpeg" 
+				style="width: 100%; height: 14.5rem;">
+		  </image>
+	  </swiper-item>
+		  
+		<swiper-item>
+			<image src="云服务器地址/images/home_picture2.jpeg" 
+				style="width: 100%; height: 14.5rem;">
+		  </image>
+		</swiper-item>
+
+		<swiper-item>
+			<image src="云服务器地址/images/home_picture3.png" 
+				style="width: 100%; height: 14.5rem;">
+		  </image>
+		</swiper-item>
+	</swiper>
+
+
+</view>
+
+<view class="homeTapContainer">
+  <view>
+	  <view class="homeTapSinger">
+			<image src="云服务器地址/images/阿猪/图标.png"  mode="widthFix" class="image" bind:tap="azhu"></image>
+			<text>阿猪</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/奥利奥/图标.png"  mode="widthFix" class="image" bind:tap="olio"></image>
+			<text>奥利奥</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/胆小狸/图标.jpg"  mode="widthFix" class="image" bind:tap="danxiaoli"></image>
+			<text>胆小狸</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/刀疤/图标.jpg"  mode="widthFix" class="image" bind:tap="daoba"></image>
+			<text>刀疤</text>
+		</view>
+	</view>
+	<view style="padding-top: 1.6rem;">
+	  <view class="homeTapSinger">
+			<image src="云服务器地址/images/二头/图标.jpg"  mode="widthFix" class="image" bind:tap="ertou"></image>
+			<text>二头</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/黑子/图标.jpg"  mode="widthFix" class="image" bind:tap="heizi"></image>
+			<text>黑子</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/梨花/图标.jpg"  mode="widthFix" class="image" bind:tap="lihua"></image>
+			<text>梨花</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/胖虎/图标.jpg"  mode="widthFix" class="image" bind:tap="panghu"></image>
+			<text>胖虎</text>
+		</view>
+	</view>
+	<view style="padding-top: 1.6rem;">
+	  <view class="homeTapSinger">
+			<image src="云服务器地址/images/漂亮橘/图标.jpg"  mode="widthFix" class="image" bind:tap="plju"></image>
+			<text>漂亮橘</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/苏菲/图标.jpg"  mode="widthFix" class="image" bind:tap="sufei"></image>
+			<text>苏菲</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/小狸/图标.jpg"  mode="widthFix" class="image" bind:tap="xiaoli"></image>
+			<text>小狸</text>
+		</view>
+		<view class="homeTapSinger">
+			<image src="云服务器地址/images/小三花/图标.jpg"  mode="widthFix" class="image" bind:tap="xshua"></image>
+			<text>小三花</text>
+		</view>
+	</view>
+</view>

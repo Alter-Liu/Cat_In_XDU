@@ -1,0 +1,128 @@
+.background1 {
+	position: absolute;
+	width: 100%;
+	height: 28%;
+	z-index: -1;
+}
+
+.head{
+	overflow: hidden;
+  width: 148rpx;
+  height: 148rpx;
+	margin-top: -200rpx;
+	border-radius: 50%;
+	z-index: 4;
+	overflow: hidden;
+}
+.box1{
+	width: 100%;
+	height: 410rpx;
+	z-index: -1;
+	overflow: hidden;
+	overflow-x: hidden;
+}
+.circle{
+	margin-top: 46.5%;
+	width: 100%;
+	height: 28%;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	z-index: 3;
+}
+
+.box2{
+	width: 100%;
+	height: 500rpx;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.background2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.container2{
+	width: 80%;
+	margin-top: 55rpx;
+	margin-left: 28%;
+	height: 50rpx;
+	display: flex;
+	flex-direction: row;
+}
+
+.detail_word{
+	margin-left: 20rpx;
+	font-family: cursive;
+	font-size: 35rpx;
+	margin-top: 6rpx;
+	height: 120rpx;
+	word-break: break-all;
+}
+
+.placeholder-view {
+	width:750rpx;
+	height:116rpx;
+	padding:0rpx;
+	clear:both;
+	float:left;
+	text-align:left; 
+	line-height:116rpx;
+	}
+	
+	.add_btn{
+	width:100%;
+	position: fixed;
+	bottom: 55rpx;
+	}
+	
+	.btn{
+	margin-top: 15rpx;
+	width: 450rpx;
+	background: linear-gradient(#51D8D0, #02C0B5); 
+	color: #fff;
+	border-radius: 70rpx;
+	text-align: center;
+	font-size: 26rpx;
+	bottom:0rpx;
+	margin-left: 150rpx;
+	}
+
+	.comments{
+		/* display: flex; */
+		margin-left: 4%;
+		margin-top: 10%;
+		border-radius: 8%;
+		width: 92%;
+		height: 500rpx;
+		background-color: rgb(247, 236, 219);
+	}
+
+	.avatar{
+		width: 80rpx;
+		height: 80rpx;
+		border-radius: 50%;
+		margin-left: 25rpx;
+		margin-top: 25rpx;
+	}
+
+	.date{
+		width: 200rpx;
+		
+		margin-top: 40rpx;
+		margin-left: 120rpx;
+	}
+
+	.text_comments{
+		margin-top: 40rpx;
+		margin-left: 100rpx;
+	}
+
+	.comments_pic{
+		height: 200rpx;
+		width: 200rpx;
+		margin-top: 50rpx;
+		margin-left: 100rpx;
+	}

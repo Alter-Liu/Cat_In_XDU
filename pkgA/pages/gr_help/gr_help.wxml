@@ -1,0 +1,4 @@
+<!--pkgA/pages/gr_help/gr_help.wxml-->
+<text style="text-align: left; margin-top: 200rpx;margin-left: 120rpx;">联系方式：</text>
+<text style="text-align: center; margin-top: 20rpx;">QQ：10001</text>
+<text style="text-align: center; margin-top: 20rpx;">TEL：110</text>

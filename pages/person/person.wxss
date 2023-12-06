@@ -1,0 +1,61 @@
+/* pages/gerenzhongxing/gerenzhongxin.wxss */
+.userinfo {
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  flex-direction: column;
+  align-items: center;
+  color: rgb(240, 129, 77);
+}
+.beijing1 {
+   position: fixed;
+    width: 100%;
+    height: 28%;
+    z-index: -1;
+   
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 90rpx;
+  margin-bottom: 26rpx;
+ 
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+ 
+}
+.linetop {
+  /* width: 80%;
+  height: 2rpx; */
+  /* background: lightgrey; */
+  margin-top: 125rpx;
+}
+.line {
+  width: 80%;
+  height: 2rpx;
+  background: lightgrey;
+  margin-left: 20%;
+  margin-top: 28rpx;
+}
+.grImages {
+  height: 65rpx;
+  width: 65rpx;
+  margin-top: 25rpx;
+  margin-right: 35rpx;
+ 
+}
+.grText {
+  color: gray;
+	font-size: 30rpx;
+  margin-top: 25rpx;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 65rpx;
+}

@@ -1,0 +1,59 @@
+{
+  "pages": [
+		"pages/home/home",
+		"pages/person/person"		
+	],
+	"subPackages": [
+		{
+			"root": "pkgA",
+			"name": "pkgA",
+			"pages": [
+				"pages/azhu/azhu",
+				"pages/olio/olio",
+				"pages/danxiaoli/danxiaoli",
+				"pages/daoba/daoba",
+				"pages/ertou/ertou",
+				"pages/heizi/heizi",
+				"pages/lihua/lihua",
+				"pages/panghu/panghu",
+				"pages/plju/plju",
+				"pages/sufei/sufei",
+				"pages/xiaoli/xiaoli",
+				"pages/xshua/xshua",
+				"pages/gr_userInformation/gr_userInformation",
+				"pages/gr_message/gr_message",
+				"pages/gr_subscribe/gr_subscribe",
+				"pages/gr_record/gr_record",
+				"pages/gr_help/gr_help",
+				"pages/comments/comments"
+			]
+		}
+	],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f3d09d",
+    "navigationBarTitleText": "Cat In XDU",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+	"lazyCodeLoading": "requiredComponents",
+	"tabBar": {
+		"list": [
+				{
+						"pagePath": "pages/home/home",
+						"text": "首页",
+						"iconPath": "images/home0.png",
+						"selectedIconPath": "images/home1.png"
+				},
+				{
+					"pagePath": "pages/person/person",
+					"text": "个人中心",
+					"iconPath": "images/person0.png",
+					"selectedIconPath": "images/person1.png"
+			}
+		]
+
+}
+}

@@ -1,0 +1,61 @@
+<!--pages/gerenzhongxing/gerenzhongxin.wxml-->
+<view>
+    <image class="beijing1" src="云服务器地址/images/beijing3.jpg">
+
+    </image>
+</view>
+<view class="container">
+
+
+    <view class="userinfo">
+        <block wx:if="{{canIUseOpenData}}">
+
+            <view class="userinfo-avatar">
+                <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <open-data type="userNickName"></open-data>
+
+        </block>
+
+        <block wx:elif="{{!hasUserInfo}}">
+            <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+            <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+            <view wx:else> 请使用1.4.4及以上版本基础库 </view>
+        </block>
+        <block wx:else>
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+
+</view>
+<view class="linetop"></view>
+
+<view class="list" bindtap="gr1">
+    <image class="grImages" src="云服务器地址/images/gr1.jpg"></image>
+    <text class="grText">个人信息</text>
+</view>
+<view class="line"></view>
+<view class="list" bindtap="gr2">
+    <image class="grImages" src="云服务器地址/images/gr2.jpg">
+    </image>
+    <text class="grText">消息通知</text>
+</view>
+<view class="line"></view>
+<view class="list" bindtap="gr3">
+    <image class="grImages" src="云服务器地址/images/gr3.jpg">
+    </image>
+    <text class="grText">个人订阅</text>
+</view>
+<view class="line"></view>
+<view class="list" bindtap="gr4">
+    <image class="grImages" src="云服务器地址/images/gr4.jpg">
+    </image>
+    <text class="grText">浏览历史</text>
+</view>
+<view class="line"></view>
+<view class="list" bindtap="gr5">
+    <image class="grImages" src="云服务器地址/images/gr5.jpg">
+    </image>
+    <text class="grText">帮助中心</text>
+</view>

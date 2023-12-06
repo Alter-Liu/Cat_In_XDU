@@ -1,0 +1,34 @@
+<view style="display: flex; flex-direction: row;">
+  <view>
+	  <image src="云服务器地址/images/more/猫爪.png"
+		style="height: 100rpx; width: 100rpx; margin-left: 25rpx; margin-top: 12rpx;">
+		</image>
+	</view>
+
+	<view class="button_container">
+  <button class="btn" style="width: 160rpx;" bind:tap="bindPublish">发布</button>
+  </view>
+</view>
+
+<view>
+  <textarea maxlength="100" class="input" name="remark" placeholder="写下这一刻的想法（最多100字）"  bindinput="remark" />
+</view>
+
+<view class="img-wrap">
+  <view class="imglist">
+    <view class="item" style="display: flex;"  wx:if="{{imgs.length == 0 ? false : true}}">
+		  <view >
+			  <image src="{{imgs}}" style="height: 220rpx; width: 220rpx; margin-left: 50rpx;" >
+				</image>
+			</view>
+      <view class='delete' bindtap='deleteImg' data-index="{{index}}">
+        <image src="云服务器地址/images/more/删除.png" style="width: 60rpx; height: 60rpx; margin-left: -32rpx; margin-top: -22rpx;"></image>
+      </view>
+    </view>
+    <view class="last-item" bindtap="bindUpload" style="margin-top: 20rpx">
+		<image src="云服务器地址/images/more/bored.png"
+		wx:if="{{imgs.length > 0 ? false : true}}" style="height: 220rpx; width: 220rpx; margin-left: 50rpx;">
+		</image>
+    </view>
+  </view>
+</view>
