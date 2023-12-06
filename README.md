@@ -6,16 +6,16 @@
 本项目是xdu本科课程《移动互联网导论》的大作业，旨在建立一个xduer自己的猫咪信息共享平台，平台能够提供猫咪信息，共享猫咪现状。
 
 ## 小程序展示
-### 主页
+
 <img width="294" alt="主页面展示" src="https://github.com/Alter-Liu/Cat_In_XDU/assets/91472748/687a0aa8-336d-4520-8310-4c671fa9b33f">
 
-### 个人中心
+
 <img width="294" alt="个人中心页面" src="https://github.com/Alter-Liu/Cat_In_XDU/assets/91472748/a339720e-f375-4b9e-864d-ef7c90f32281">
 
-### 猫咪主页面
+
 <img width="294" alt="猫咪主页面" src="https://github.com/Alter-Liu/Cat_In_XDU/assets/91472748/529fcdf7-e83b-473a-89dc-349d1379b845">
 
-### 评论页面
+
 <img width="294" alt="评论页面" src="https://github.com/Alter-Liu/Cat_In_XDU/assets/91472748/943fabc0-1136-46c5-97be-d089553ec175">
 
 ## 相关文件介绍
